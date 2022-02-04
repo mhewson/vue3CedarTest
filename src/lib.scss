@@ -1,0 +1,15 @@
+@import "@rei/cdr-tokens/dist/scss/cdr-tokens.scss";
+
+.cdr-container {
+
+  @include cdr-container;
+}
+.cdr-page {
+  width: 100%;
+
+  &__heading {
+    padding: $cdr-space-two-x;
+
+    @include cdr-text-heading-serif-strong-800;
+  }
+}
