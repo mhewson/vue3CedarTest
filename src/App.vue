@@ -29,7 +29,8 @@ const heading = ref('cdrPage__heading')
 @import '@rei/cdr-tokens/dist/scss/cdr-tokens.scss';
 
 .cdr-container {
-  @include cdr-container();
+
+  @include cdr-container;
 }
 .cdrPage {
 
